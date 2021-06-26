@@ -13,6 +13,7 @@ namespace NuevoProyectoViernes
 
             string[] nombres = new string[2];
             string[] apellidos = new string[2];
+            string[] segundoNombre = new string[2];
 
             for (int i = 0; i < nombres.Length; i++)
             {
@@ -21,6 +22,9 @@ namespace NuevoProyectoViernes
 
                 Console.WriteLine("Ingrese apellido");
                 apellidos[i] = Console.ReadLine();
+
+                Console.WriteLine("Ingrese segundo nombre");
+                segundoNombre[i] = Console.ReadLine();
 
             }
 
@@ -32,6 +36,7 @@ namespace NuevoProyectoViernes
             {
                 Console.WriteLine(nombres[i]);
                 Console.WriteLine(apellidos[i]);
+                Console.WriteLine(segundoNombre[i]);
                 Console.WriteLine();
             }
 
