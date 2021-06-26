@@ -6,6 +6,11 @@ namespace NuevoProyectoViernes
     {
         static void Main(string[] args)
         {
+
+            Console.Title = "APLICACION BASICA";
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+
             string[] nombres = new string[2];
             string[] apellidos = new string[2];
 
@@ -19,7 +24,7 @@ namespace NuevoProyectoViernes
 
             }
 
-
+            Console.ForegroundColor = ConsoleColor.Green;
 
             Console.Clear();
 
