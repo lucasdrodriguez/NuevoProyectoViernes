@@ -6,12 +6,12 @@ namespace NuevoProyectoViernes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola pepeee!");
-            Console.WriteLine("Hola pepeee!");
-            Console.WriteLine("Hola pepeee!");
-            Console.WriteLine("Hola pepeee!");
-            Console.WriteLine("Hola pepeee!");
-            Console.WriteLine("Hola pepeee!");
+            Console.WriteLine("Ingrese nombre");
+            string nombre = Console.ReadLine();
+
+            Console.Clear();
+
+            Console.WriteLine(nombre);
 
         }
     }
