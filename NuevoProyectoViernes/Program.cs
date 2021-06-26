@@ -6,18 +6,29 @@ namespace NuevoProyectoViernes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ingrese nombre");
-            string nombre = Console.ReadLine();
+            string[] nombres = new string[2];
+            string[] apellidos = new string[2];
+
+            for (int i = 0; i < nombres.Length; i++)
+            {
+                Console.WriteLine("Ingrese nombre");
+                nombres[i] = Console.ReadLine();
+
+                Console.WriteLine("Ingrese apellido");
+                apellidos[i] = Console.ReadLine();
+
+            }
 
 
-            Console.WriteLine("Ingrese apellido");
-            string apellido = Console.ReadLine();
-            
 
             Console.Clear();
 
-            Console.WriteLine(nombre);
-            Console.WriteLine(apellido);
+            for (int i = 0; i < nombres.Length; i++)
+            {
+                Console.WriteLine(nombres[i]);
+                Console.WriteLine(apellidos[i]);
+                Console.WriteLine();
+            }
 
         }
     }
